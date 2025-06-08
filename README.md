@@ -1,15 +1,16 @@
 # 🔥 FireWatch — App Mobile React Native
-======================================
 
 Aplicativo mobile desenvolvido para auxiliar comunidades em situações de risco ambiental, como incêndios e ondas de calor extremo. Permite o cadastro, visualização e monitoramento de ocorrências, além do acesso a dicas de segurança e endereços de abrigos temporários por cidade.
 
+---
+
 ## 📌 Objetivo
------------
 
 Oferecer uma solução prática e acessível para moradores reportarem situações de emergência, consultarem orientações e encontrarem abrigos disponíveis. A proposta foi desenvolvida como parte da Global Solution, integrando as disciplinas de mobile, back-end e banco de dados.
 
+---
+
 ## ⚙️ Tecnologias Utilizadas
--------------------------
 
 *   React Native com Expo
     
@@ -24,10 +25,10 @@ Oferecer uma solução prática e acessível para moradores reportarem situaçõ
 *   Styled Components e StyleSheet
     
 *   Mobile-first design
-    
+
+---
 
 ## 📱 Funcionalidades do App
--------------------------
 
 *   Cadastro de ocorrências com envio para API
     
@@ -41,9 +42,9 @@ Oferecer uma solução prática e acessível para moradores reportarem situaçõ
     
 *   Navegação fluida com identidade visual personalizada
     
+---
 
 ## 🔄 Integração com API
----------------------
 
 O app consome uma API RESTful desenvolvida em Java Spring Boot para a entidade Ocorrência.
 
@@ -51,8 +52,9 @@ O app consome uma API RESTful desenvolvida em Java Spring Boot para a entidade O
 
 GET /api/ocorrencias — Lista todas as ocorrênciasPOST /api/ocorrencias — Cadastra nova ocorrênciaGET /api/cidades — Lista as cidades disponíveis
 
+---
+
 ## 🧪 Como rodar localmente
-------------------------
 
 Clone o repositório:
 
@@ -64,8 +66,9 @@ npx expo installnpx expo start
 
 Será exibido um QR Code. Escaneie com o app Expo Go ou rode no seu emulador.
 
+---
+
 ## 🗂️ Estrutura de Telas
-----------------------
 
 *   HomeScreen: Tela inicial com botões de navegação
     
@@ -81,9 +84,9 @@ Será exibido um QR Code. Escaneie com o app Expo Go ou rode no seu emulador.
     
 *   SobreNosScreen: Informações sobre o projeto e como usar
     
+---
 
 📸 Exemplo de JSON usado na API
--------------------------------
 
 Criar Ocorrência:
 
