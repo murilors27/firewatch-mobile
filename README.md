@@ -112,7 +112,7 @@ Criar Ocorrência:
 
 ## 🎬 Link do Vídeo Demonstrativo
 
-link: (https://youtube.com/shorts/zH9TaHd4DSM?feature=share)
+link: [https://youtube.com/shorts/zH9TaHd4DSM?feature=share](https://youtube.com/shorts/zH9TaHd4DSM?feature=share)
 
 ---
 
