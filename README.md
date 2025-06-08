@@ -94,15 +94,11 @@ Será exibido um QR Code. Escaneie com o app Expo Go ou rode no seu emulador.
 
 Criar Ocorrência:
 
-{
-&nbsp;&nbsp;"cidadeId": 1,
-&nbsp;&nbsp;"sensorId": 2,
-&nbsp;&nbsp;"equipamentoId": 1,
-&nbsp;&nbsp;"funcionarioId": 1,
-&nbsp;&nbsp;"latitude": -23.5489,
-&nbsp;&nbsp;"longitude": -46.6388,
-&nbsp;&nbsp;"dataOcorrencia": "2025-06-06",
-&nbsp;&nbsp;"comentario": "Foco de fumaça detectado"
+{  
+&nbsp;&nbsp;"cidadeId": 1,  
+&nbsp;&nbsp;"sensorId": 2,  
+&nbsp;&nbsp;"equipamentoId": 1,  
+&nbsp;&nbsp;"funcionarioId": 1,  
 }
 
 ## 👥 Equipe
