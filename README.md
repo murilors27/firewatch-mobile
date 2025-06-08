@@ -90,7 +90,7 @@ Será exibido um QR Code. Escaneie com o app Expo Go ou rode no seu emulador.
     
 ---
 
-📸 Exemplo de JSON usado na API
+## 📸 Exemplo de JSON usado na API
 
 Criar Ocorrência:
 
@@ -103,6 +103,14 @@ Criar Ocorrência:
 &nbsp;&nbsp;"longitude": -46.6388,    
 &nbsp;&nbsp;"dataOcorrencia": "2025-06-06",  
 }
+
+---
+
+## 🎬 Link do Vídeo Demonstrativo
+
+[link:] (https://youtube.com/shorts/zH9TaHd4DSM?feature=share)
+
+---
 
 ## 👥 Equipe
 
