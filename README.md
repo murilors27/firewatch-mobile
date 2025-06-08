@@ -101,7 +101,7 @@ Criar Ocorrência:
 &nbsp;&nbsp;"funcionarioId": 1,
 &nbsp;&nbsp;"latitude": -23.5489,  
 &nbsp;&nbsp;"longitude": -46.6388,    
-&nbsp;&nbsp;"dataOcorrencia": "2025-06-06",
+&nbsp;&nbsp;"dataOcorrencia": "2025-06-06",  
 }
 
 ## 👥 Equipe
