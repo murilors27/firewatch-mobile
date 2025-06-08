@@ -6,15 +6,17 @@ import { colors } from '../styles/colors';
 interface CardOcorrenciaProps {
   cidade: string;
   tipoSensor: string;
+  tipoOcorrencia: string;
   data: string;
 }
 
-export default function CardOcorrencia({ cidade, tipoSensor, data }: CardOcorrenciaProps) {
+export default function CardOcorrencia({ cidade, tipoSensor, tipoOcorrencia, data }: CardOcorrenciaProps) {
   return (
     <View style={styles.card}>
       <Text style={styles.title}>📍 {cidade}</Text>
-      <Text style={styles.subtitle}>🔥 Tipo de ocorrência: {tipoSensor}</Text>
-      <Text style={styles.date}>📅 {data}</Text>
+      <Text style={styles.subtitle}>• Sensor: {tipoSensor}</Text>
+      <Text style={styles.subtitle}>• Ocorrência: {tipoOcorrencia}</Text>
+      <Text style={styles.date}>• Data: {data}</Text>
     </View>
   );
 }

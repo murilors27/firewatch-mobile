@@ -17,6 +17,15 @@ export default function ListaOcorrenciasScreen() {
   const [loading, setLoading] = useState(true);
   const isFocused = useIsFocused();
 
+  const gerarTipoOcorrencia = (tipoSensor: string): string => {
+    if (tipoSensor.includes('Fumaça')) return 'Possível foco de incêndio';
+    if (tipoSensor.includes('Temperatura')) return 'Risco de superaquecimento';
+    if (tipoSensor.includes('Movimento')) return 'Movimento não autorizado';
+    if (tipoSensor.includes('Pressão')) return 'Queda de pressão atmosférica';
+    if (tipoSensor.includes('Gás')) return 'Vazamento de gás perigoso';
+    return 'Ocorrência em análise';
+  };
+
   useEffect(() => {
     async function fetchOcorrencias() {
       try {
@@ -54,6 +63,7 @@ export default function ListaOcorrenciasScreen() {
             <CardOcorrencia
               cidade={item.cidade.nome}
               tipoSensor={item.sensor.tipo}
+              tipoOcorrencia={gerarTipoOcorrencia(item.sensor.tipo)}
               data={new Date(item.dataOcorrencia + 'T03:00:00Z').toLocaleDateString()}
             />
           )}
@@ -65,12 +75,19 @@ export default function ListaOcorrenciasScreen() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1, padding: 16, backgroundColor: colors.background,
+    flex: 1,
+    padding: 16,
+    backgroundColor: colors.background,
   },
   title: {
-    fontSize: 22, fontWeight: 'bold', marginBottom: 4, color: colors.primary,
+    fontSize: 22,
+    fontWeight: 'bold',
+    marginBottom: 4,
+    color: colors.primary,
   },
   alert: {
-    fontSize: 15, marginBottom: 12, color: '#444',
+    fontSize: 15,
+    marginBottom: 12,
+    color: '#444',
   },
 });
