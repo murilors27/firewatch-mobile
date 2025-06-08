@@ -62,11 +62,15 @@ O app consome uma API RESTful desenvolvida em Java Spring Boot para a entidade O
 
 Clone o repositório:
 
-git clone [https://github.com/seu-usuario/firewatch-app.git](https://github.com/seu-usuario/firewatch-app.git)cd firewatch-app
+* git clone [https://github.com/murilors27/firewatch-mobile.git](https://github.com/murilors27/firewatch-mobile.git)
+
+* cd firewatch-app
 
 Execute o projeto:
 
-npx expo installnpx expo start
+* npx expo install
+
+* npx expo start
 
 Será exibido um QR Code. Escaneie com o app Expo Go ou rode no seu emulador.
 
@@ -108,7 +112,7 @@ Criar Ocorrência:
 
 ## 🎬 Link do Vídeo Demonstrativo
 
-[link:] (https://youtube.com/shorts/zH9TaHd4DSM?feature=share)
+link: (https://youtube.com/shorts/zH9TaHd4DSM?feature=share)
 
 ---
 
