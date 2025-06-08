@@ -50,9 +50,11 @@ O app consome uma API RESTful desenvolvida em Java Spring Boot para a entidade O
 
 ### Endpoints principais utilizados:
 
-GET /api/ocorrencias — Lista todas as ocorrências
-POST /api/ocorrencias — Cadastra nova ocorrência
-GET /api/cidades — Lista as cidades disponíveis
+* GET /api/ocorrencias — Lista todas as ocorrências
+
+* POST /api/ocorrencias — Cadastra nova ocorrência
+
+* GET /api/cidades — Lista as cidades disponíveis
 
 ---
 
